@@ -1,84 +1,187 @@
-# Inkwell Blogging Platform - Frontend
+<br />
+<div align="center">
+  <h1 align="center">Inkwell Blogging Platform - Frontend</h1>
 
-This is the frontend application for the Inkwell Blogging Platform. It is built using modern web technologies to provide a fast, responsive, and dynamic user experience.
+  <p align="center">
+    A modern, feature-rich blogging platform frontend built with React, Vite, and Tailwind CSS.
+    <br />
+    <br />
+    <a href="#features"><strong>Explore the features »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Riya-Teepa-12/Blogging-platform-frontend/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Riya-Teepa-12/Blogging-platform-frontend/issues">Request Feature</a>
+  </p>
+</div>
 
-## Tech Stack
+<!-- BADGES -->
+<div align="center">
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Forks][forks-shield]][forks-url]
+  [![Stargazers][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
+  [![MIT License][license-shield]][license-url]
+</div>
 
-- **Framework**: [React](https://react.dev/)
-- **Build Tool**: [Vite](https://vitejs.dev/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Routing**: [React Router](https://reactrouter.com/)
-- **Rich Text Editor**: [Tiptap](https://tiptap.dev/)
-- **Icons**: [Lucide React](https://lucide.dev/)
+---
 
-## Prerequisites
+## 📖 Table of Contents
+- [About The Project](#about-the-project)
+  - [Tech Stack](#tech-stack)
+  - [Key Features](#key-features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Environment Variables](#environment-variables)
+- [Available Scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-- Node.js (v18 or higher recommended)
-- npm or yarn
+---
 
-## Getting Started
+## 🚀 About The Project
 
-1. **Clone the repository:**
+The Inkwell Frontend is a highly responsive, performant, and user-friendly web interface designed to provide a seamless reading and writing experience. Built on modern web technologies, it features a comprehensive rich text editor, smooth micro-interactions, and a fully customizable aesthetic powered by Tailwind CSS.
 
-   ```bash
+### 🛠 Tech Stack
+
+This project leverages the following modern tools and frameworks:
+
+* **Framework:** [React 19](https://react.dev/) & [Vite](https://vitejs.dev/)
+* **Routing:** [React Router v7](https://reactrouter.com/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Animations:** [Framer Motion](https://www.framer.com/motion/)
+* **Editor:** [Tiptap Rich Text Editor](https://tiptap.dev/)
+* **Icons:** [Lucide React](https://lucide.dev/)
+
+### ✨ Key Features
+
+* **Rich Text Editing:** Full-featured WYSIWYG editor powered by Tiptap.
+* **Modern UI/UX:** Responsive, mobile-first design with smooth Framer Motion transitions.
+* **Authentication Ready:** Contexts and layouts pre-configured for robust Auth.
+* **Performance Focused:** Vite-powered lightning-fast HMR and optimized production builds.
+
+---
+
+## ⚙️ Getting Started
+
+Follow these instructions to set up the project locally for development and testing purposes.
+
+### Prerequisites
+
+Ensure you have the following installed on your local machine:
+* [Node.js](https://nodejs.org/) (v18.0.0 or higher recommended)
+* `npm` (v9+) or `yarn` or `pnpm`
+
+### Installation
+
+1. **Clone the repository**
+   ```sh
    git clone https://github.com/Riya-Teepa-12/Blogging-platform-frontend.git
+   ```
+
+2. **Navigate to the project directory**
+   ```sh
    cd Blogging-platform-frontend
    ```
 
-2. **Install dependencies:**
-
-   ```bash
+3. **Install NPM packages**
+   ```sh
    npm install
    ```
 
-3. **Configure Environment Variables:**
-   
-   Create a `.env` file in the root directory based on the provided `.env.example` file:
-   
-   ```bash
-   cp .env.example .env
-   ```
-   
-   Update the variables in `.env` to point to your local or deployed backend services.
+---
 
-4. **Start the development server:**
+## 🔐 Environment Variables
 
-   ```bash
-   npm run dev
-   ```
+To run this project, you will need to add specific environment variables. 
+Copy the `.env.example` file to create your own local `.env` file:
 
-   The application will be available at `http://localhost:5173` (or the port specified by Vite).
-
-## Building for Production
-
-To create a production build, run:
-
-```bash
-npm run build
+```sh
+cp .env.example .env
 ```
 
-This will generate a `dist` folder containing the compiled and minified static assets, which can be deployed to any static hosting service.
+| Variable Name | Description | Default / Example |
+| ------------- | ----------- | ----------------- |
+| `VITE_API_BASE_URL` | The base URL for the backend API | `http://localhost:8080/api/v1` |
 
-## Project Structure
+*(Note: Never commit your `.env` file to version control. It is ignored by default in this repository's `.gitignore`.)*
 
-- `src/` - Source code for the application.
-  - `components/` - Reusable UI components.
-  - `pages/` - Page-level components.
-  - `assets/` - Static assets like images and styles.
-- `public/` - Public static files (e.g., `index.html`, favicon).
+---
 
-## Branching Strategy
+## 📜 Available Scripts
 
-This project follows a standard branching workflow:
+In the project directory, you can run the following standard commands:
 
-- `main` - Production-ready code.
-- `dev` - Integration branch for ongoing development.
-- `feature/*` - Topic branches for developing new features.
+### `npm run dev`
+Runs the app in the development mode using Vite. Open [http://localhost:5173](http://localhost:5173) to view it in the browser. The page will reload if you make edits.
 
-## Contributing
+### `npm run build`
+Builds the app for production to the `dist` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. Create a feature branch from `dev` (e.g., `feature/my-new-feature`).
-2. Make your changes and commit them with descriptive messages.
-3. Push your feature branch to the remote repository.
-4. Create a Pull Request against the `dev` branch.
+### `npm run preview`
+Locally preview the production build that was generated in the `dist` directory.
+
+---
+
+## 📁 Project Structure
+
+A quick look at the top-level files and directories:
+
+```text
+inkwell-frontend/
+├── public/               # Static assets that are not processed by Webpack/Vite
+├── src/                  # Application source code
+│   ├── components/       # Reusable React components (Navbar, Footer, etc.)
+│   ├── context/          # React Contexts (Auth, Theme, etc.)
+│   ├── pages/            # Top-level Page components (Home, Login, Post, etc.)
+│   ├── lib/              # Utility functions and API service layers
+│   ├── data/             # Mock data for frontend development
+│   ├── styles.css        # Global CSS entries
+│   └── main.jsx          # Application entry point
+├── .env.example          # Template for required environment variables
+├── package.json          # Project metadata, scripts, and dependencies
+├── tailwind.config.js    # Tailwind CSS configuration
+└── vite.config.js        # Vite bundler configuration
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request into the `dev` branch.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+## 📬 Contact
+
+Project Link: [https://github.com/Riya-Teepa-12/Blogging-platform-frontend](https://github.com/Riya-Teepa-12/Blogging-platform-frontend)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/Riya-Teepa-12/Blogging-platform-frontend.svg?style=for-the-badge
+[contributors-url]: https://github.com/Riya-Teepa-12/Blogging-platform-frontend/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Riya-Teepa-12/Blogging-platform-frontend.svg?style=for-the-badge
+[forks-url]: https://github.com/Riya-Teepa-12/Blogging-platform-frontend/network/members
+[stars-shield]: https://img.shields.io/github/stars/Riya-Teepa-12/Blogging-platform-frontend.svg?style=for-the-badge
+[stars-url]: https://github.com/Riya-Teepa-12/Blogging-platform-frontend/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Riya-Teepa-12/Blogging-platform-frontend.svg?style=for-the-badge
+[issues-url]: https://github.com/Riya-Teepa-12/Blogging-platform-frontend/issues
+[license-shield]: https://img.shields.io/github/license/Riya-Teepa-12/Blogging-platform-frontend.svg?style=for-the-badge
+[license-url]: https://github.com/Riya-Teepa-12/Blogging-platform-frontend/blob/main/LICENSE
