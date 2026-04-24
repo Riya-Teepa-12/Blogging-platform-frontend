@@ -1,162 +1,143 @@
-<br />
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg" alt="React" width="60" height="60" style="margin: 0 10px;" />
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Vite-Dark.svg" alt="Vite" width="60" height="60" style="margin: 0 10px;" />
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TailwindCSS-Dark.svg" alt="Tailwind CSS" width="60" height="60" style="margin: 0 10px;" />
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg" alt="React" width="50" height="50" />
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Vite-Dark.svg" alt="Vite" width="50" height="50" />
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TailwindCSS-Dark.svg" alt="Tailwind CSS" width="50" height="50" />
   
-  <h1 align="center">Inkwell Blogging Platform - Frontend</h1>
+  <br />
+  <br />
+
+  <h1 align="center">🖋️ Inkwell Platform Frontend</h1>
 
   <p align="center">
-    A modern, high-performance web interface designed for a seamless reading and writing experience.
+    <strong>A next-generation publishing platform crafted for modern writers and readers.</strong>
     <br />
-    <br />
-    <a href="#-features"><strong>Explore the features »</strong></a>
-    <br />
-    <br />
+    Responsive, lightning-fast, and thoughtfully designed.
+  </p>
+  
+  <p align="center">
     <a href="https://github.com/Riya-Teepa-12/Blogging-platform-frontend/issues">Report Bug</a>
     ·
     <a href="https://github.com/Riya-Teepa-12/Blogging-platform-frontend/issues">Request Feature</a>
   </p>
+
+  <p align="center">
+    <img src="https://img.shields.io/github/license/Riya-Teepa-12/Blogging-platform-frontend?style=flat-square&color=5D5DFF" alt="License" />
+    <img src="https://img.shields.io/github/stars/Riya-Teepa-12/Blogging-platform-frontend?style=flat-square&color=5D5DFF" alt="Stars" />
+    <img src="https://img.shields.io/github/forks/Riya-Teepa-12/Blogging-platform-frontend?style=flat-square&color=5D5DFF" alt="Forks" />
+    <img src="https://img.shields.io/github/issues/Riya-Teepa-12/Blogging-platform-frontend?style=flat-square&color=5D5DFF" alt="Issues" />
+  </p>
 </div>
 
-<div align="center">
+## 🌟 Overview
 
-[![Contributors](https://img.shields.io/github/contributors/Riya-Teepa-12/Blogging-platform-frontend.svg?style=for-the-badge&color=blue)](https://github.com/Riya-Teepa-12/Blogging-platform-frontend/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/Riya-Teepa-12/Blogging-platform-frontend.svg?style=for-the-badge&color=blue)](https://github.com/Riya-Teepa-12/Blogging-platform-frontend/network/members)
-[![Stargazers](https://img.shields.io/github/stars/Riya-Teepa-12/Blogging-platform-frontend.svg?style=for-the-badge&color=blue)](https://github.com/Riya-Teepa-12/Blogging-platform-frontend/stargazers)
-[![Issues](https://img.shields.io/github/issues/Riya-Teepa-12/Blogging-platform-frontend.svg?style=for-the-badge&color=blue)](https://github.com/Riya-Teepa-12/Blogging-platform-frontend/issues)
-[![MIT License](https://img.shields.io/github/license/Riya-Teepa-12/Blogging-platform-frontend.svg?style=for-the-badge&color=blue)](https://github.com/Riya-Teepa-12/Blogging-platform-frontend/blob/main/LICENSE)
+Inkwell is a comprehensive, microservices-backed blogging frontend that delivers a premium publishing experience. Designed with a mobile-first philosophy, the application seamlessly handles complex workflows—from sophisticated rich-text editing to robust administration dashboards—all while maintaining a fluid, native-feeling user interface.
 
-</div>
+## ✨ Platform Features
 
----
+### 👥 Multi-Role Ecosystem
+- **Readers**: Personalized feeds, reading history, bookmarks, and subscriptions.
+- **Authors**: Advanced rich-text editor (Tiptap), draft management, analytics dashboard, and profile customization.
+- **Administrators**: Comprehensive admin panel for content moderation, user suspension, and platform analytics.
 
-## 📖 Table of Contents
-- [About The Project](#-about-the-project)
-  - [Tech Stack](#-tech-stack)
-  - [Key Features](#-key-features)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Environment Variables](#-environment-variables)
-- [Project Structure](#-project-structure)
-- [Available Scripts](#-available-scripts)
-- [Contributing](#-contributing)
+### 🔐 Security & Identity
+- Secure JWT-based authentication flow.
+- Seamless OAuth integration (Google/GitHub).
+- Protected routing and session management.
+- Forgot password and secure reset workflows.
 
----
+### 📝 The Publishing Experience
+- **WYSIWYG Editor**: Distraction-free writing powered by Tiptap.
+- **Media Management**: Effortless image uploads and cover photo integration.
+- **Engagement**: Comments, claps/likes, and sharing mechanisms.
 
-## 🚀 About The Project
+### 📨 Newsletters & Notifications
+- Built-in newsletter subscription system.
+- Real-time application notifications for engagement and updates.
 
-**Inkwell** is an elegant, highly responsive blogging platform built with a focus on typography, readability, and a frictionless authoring experience. Designed with a mobile-first approach, it utilizes the power of **Vite** and **React** for lightning-fast navigation, while **Tailwind CSS** ensures a highly customized and beautiful UI.
+## 🛠️ Technology Stack
 
-### 🛠 Tech Stack
+Our stack is carefully chosen to provide optimal developer experience and unparalleled user performance.
 
-* **Core:** [React 19](https://react.dev/) & [Vite](https://vitejs.dev/)
-* **Routing:** [React Router v7](https://reactrouter.com/)
-* **Styling & UI:** [Tailwind CSS](https://tailwindcss.com/)
-* **Motion:** [Framer Motion](https://www.framer.com/motion/)
-* **Rich Text Editing:** [Tiptap Editor](https://tiptap.dev/)
-* **Icons:** [Lucide React](https://lucide.dev/)
+| Category | Technology | Description |
+| :--- | :--- | :--- |
+| **Core** | [React 19](https://react.dev/) | UI Library |
+| **Build Tool** | [Vite](https://vitejs.dev/) | Next-generation frontend tooling |
+| **Routing** | [React Router 7](https://reactrouter.com/) | Declarative routing |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework |
+| **Animation** | [Framer Motion](https://www.framer.com/motion/) | Production-ready animation library |
+| **Editor** | [Tiptap](https://tiptap.dev/) | Headless wrapper around ProseMirror |
+| **Icons** | [Lucide](https://lucide.dev/) | Beautiful & consistent icon toolkit |
 
-### ✨ Key Features
-
-* **Rich Text Editor:** A fully customized WYSIWYG editor using Tiptap, allowing authors to format text, add links, and structure articles effortlessly.
-* **Modern Aesthetic:** A sleek UI crafted with Tailwind CSS featuring harmonious color palettes, fluid typography, and glassmorphism touches.
-* **Fluid Animations:** Micro-interactions and page transitions powered by Framer Motion to provide a premium feel.
-* **Responsive Design:** Completely mobile-friendly layouts that adapt beautifully across all screen sizes.
-
----
-
-## ⚙️ Getting Started
-
-Follow these steps to set up the project locally for development.
+## 🚀 Getting Started
 
 ### Prerequisites
 
-You need the following installed on your system:
-* [Node.js](https://nodejs.org/) (v18.0.0 or higher)
-* `npm`, `yarn`, or `pnpm`
+- **Node.js** (v18.x or higher)
+- **npm** (v9.x or higher) or **yarn**
 
-### Installation
+### Local Setup Instructions
 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Riya-Teepa-12/Blogging-platform-frontend.git
-   ```
-
-2. **Navigate into the project folder**
-   ```bash
    cd Blogging-platform-frontend
    ```
 
-3. **Install dependencies**
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
----
+3. **Configure Environment Variables**
+   Duplicate the example environment file and update the variables to point to your backend services.
+   ```bash
+   cp .env.example .env
+   ```
 
-## 🔐 Environment Variables
+4. **Launch the development server**
+   ```bash
+   npm run dev
+   ```
+   *The application will boot up at `http://localhost:5173`.*
 
-Create a local `.env` file based on the provided example.
-
-```bash
-cp .env.example .env
-```
-
-Ensure the following variables are configured in your `.env` file to communicate with the Inkwell Backend services:
-
-| Variable Name | Description | Example |
-| ------------- | ----------- | ------- |
-| `VITE_API_BASE_URL` | The endpoint for the backend API | `http://localhost:8080/api/v1` |
-
-> [!WARNING]  
-> Never commit your `.env` file. It is safely ignored by `.gitignore`.
-
----
-
-## 📁 Project Structure
-
-Here is a high-level overview of the application's structure:
+## 📂 Architecture overview
 
 ```text
-inkwell-frontend/
-├── public/               # Publicly accessible static assets
-├── src/                  # Source code
-│   ├── components/       # Shared UI components (Buttons, Navbar, Cards)
-│   ├── context/          # React Context providers (Auth, Theme)
-│   ├── pages/            # Routable page components
-│   ├── lib/              # API clients and utility functions
-│   ├── main.jsx          # Application entry point
-│   └── styles.css        # Tailwind & Global styles
-├── .env.example          # Environment variable template
-├── tailwind.config.js    # Tailwind configuration
-└── vite.config.js        # Vite bundler configuration
+src/
+├── components/       # Modular, reusable UI components (Buttons, Modals, Navbar)
+├── context/          # Global state management (AuthContext, ThemeContext)
+├── pages/            # View-level components mapped to routes
+│   ├── AdminPanelPage.jsx
+│   ├── AuthorDashboardPage.jsx
+│   ├── FeedPage.jsx
+│   ├── PostPage.jsx
+│   └── ...
+├── lib/              # API interceptors and utility functions
+├── data/             # Mock services and static configuration
+└── styles.css        # Global CSS and Tailwind directives
 ```
 
----
+## 📜 Available Commands
 
-## 💻 Available Scripts
-
-Run these scripts from the project root using your package manager:
-
-* `npm run dev`: Starts the local development server at `http://localhost:5173` with Hot Module Replacement (HMR).
-* `npm run build`: Compiles and optimizes the application for production deployment into the `dist` folder.
-* `npm run preview`: Bootstraps a local web server to preview your production build.
-
----
+- `npm run dev` - Starts the Vite dev server with HMR.
+- `npm run build` - Transpiles and minifies the application for production.
+- `npm run preview` - Serves the production build locally for testing.
 
 ## 🤝 Contributing
 
-We welcome contributions to make **Inkwell** even better! 
+We believe in the power of open source. Whether it's fixing a bug, adding a feature, or improving documentation, your contributions are welcome!
 
-1. **Fork** the repository
-2. **Create** your feature branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** to the branch (`git push origin feature/AmazingFeature`)
-5. **Open** a Pull Request against the `dev` branch.
+1. Fork the project.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request into the `dev` branch.
 
-<p align="center">
-  <br/>
-  Made with ❤️ by the Inkwell Team.
-</p>
+## 📄 License
+
+This project is licensed under the MIT License.
+
+<div align="center">
+  <br />
+  <sub>Built with precision by the Inkwell Team.</sub>
+</div>
