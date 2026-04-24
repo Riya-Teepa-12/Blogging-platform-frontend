@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg" alt="React" width="50" height="50" />
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Vite-Dark.svg" alt="Vite" width="50" height="50" />
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TailwindCSS-Dark.svg" alt="Tailwind CSS" width="50" height="50" />
   
   <br />
@@ -123,15 +121,6 @@ src/
 - `npm run build` - Transpiles and minifies the application for production.
 - `npm run preview` - Serves the production build locally for testing.
 
-## 🤝 Contributing
-
-We believe in the power of open source. Whether it's fixing a bug, adding a feature, or improving documentation, your contributions are welcome!
-
-1. Fork the project.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request into the `dev` branch.
 
 ## 📄 License
 
