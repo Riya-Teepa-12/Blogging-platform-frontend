@@ -277,7 +277,8 @@ export const commentService = {
     return apiRequest(`/comments/post/${postId}`, { token });
   },
   getAll(status, token) {
-    return apiRequest(`/comments/all${queryString({ status })}`, { token });
+  const normalizedStatus = status === "ALL" ? "" : status;
+  return apiRequest(`/comments/all${queryString({ status: normalizedStatus })}`, { token });
   },
   getById(commentId, token) {
     return apiRequest(`/comments/${commentId}`, { token });
