@@ -158,7 +158,7 @@ function AdminPanelPage() {
       authService.getAuditLogs(120, token),
       authService.countUsers({}, token),
       postService.count(undefined, token),
-      commentService.count(undefined, token),
+      Promise.resolve({ count: 0 }),
     ]);
     setUsers(Array.isArray(filteredUsers) ? filteredUsers : []);
     setAllUsers(Array.isArray(allUsersRows) ? allUsersRows : []);
@@ -175,7 +175,7 @@ function AdminPanelPage() {
     setCounts({
       users: userCountRes?.count || 0,
       posts: postCountRes?.count || 0,
-      comments: commentCountRes?.count || 0,
+      comments: Array.isArray(commentRows) ? commentRows.length : 0,
     });
   };
 
