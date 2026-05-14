@@ -1,6 +1,12 @@
-  
 {
   "rewrites": [
-    { "source": "/api/:path*", "destination": "http://13.206.179.85:8080/:path*" }
+    {
+      "source": "/api/(.*)",
+      "destination": "http://ec2-13-206-179-85.ap-south-1.compute.amazonaws.com:8080/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
